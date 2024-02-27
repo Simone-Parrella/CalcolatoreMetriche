@@ -1,0 +1,20 @@
+
+type(Region(569,73,175,40), "prova-per-ing-soft")
+click(Region(702,107,134,43))
+wait(3)
+        
+        
+click(Region(194,214,173,59))
+wait(7)
+click(Region(1391,26,51,54))
+wait(20)
+click(Region(777,640,150,28))
+click(Region(792,290,118,27))
+wait(20)
+click(Region(846,482,135,25))
+click(Region(842,132,132,29))
+wait(20)
+click(Region(776,641,152,26))
+click(Region(781,643,131,25))
+wait(20)
+click(Region(697,679,139,28))

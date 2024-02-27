@@ -1,0 +1,139 @@
+Test eseguiti su repository prova-per-ing-soft
+scaricamentoRepo : cerca la repository, la scarica 
+Accessorepo : cerca la repository, la scarica e vi accede
+test1: scegli l'anno di inizio, il branch, il commit di inzio, la classe, l'anno di fine e il commit finale poi fai partire l'analisi(lascia le metriche da calcolare predefinite)
+test2: scegli le metriche da calcolare scegli l'anno di inizio, il branch, il commit di inzio, la classe, l'anno di fine e il commit finale poi fai partire l'analisi
+test3: scegli le metriche da calcolare e fa partire l'analisi
+test4: fa partire l'analisi senza cambiare nulla
+test5: scegli l'anno di inizio, il commit di inzio, la classe, l'anno di fine e il commit finale poi fai partire l'analisi(lascia le metriche da calcolare predefinite)
+tes6: scegli il tipo di metriche , scegli l'anno di inizio, il commit di inzio, l'anno di fine e il commit finale poi fai partire l'analisi(lascia le metriche da calcolare predefinite)
+test7: scegli l'anno di inizio, il branch, il commit di inizio, la classe, l'anno di fine e il commit finale poi fa partire l'analisi(differenza con test 1 è che sono 2 anni diversi)
+test8 : non si scelgono anni ma solo commit iniziale e finale
+tets9: non si scelgono anni ma solo commit iniziale e finel  e il tipo di metriche
+test10: scelgo prima il commit di arrivo e poi quello di inizio(viene gestito e quello di arrivo si aggiorna in maniera tale da essere successivo a quello di inizio)
+test11: faccio un'analisi con le metriche di processo e poi subito dopo uno con ck
+test12: faccio un'analisi con le metriche di ck e poi con quelle di processo
+test13: faccio un'analisi, poi esco, mi scarico un'altra repo e faccio un'altra analisi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+)

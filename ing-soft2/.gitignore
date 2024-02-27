@@ -1,0 +1,12 @@
+/VirtualEnvirovment
+repository/
+*.pyc
+Prova.py
+**/__pycache__
+output/
+/Giulio
+.coverage
+htmlcov
+fake_repository
+.pytest_cache
+TestingMetriche

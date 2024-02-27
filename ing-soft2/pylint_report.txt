@@ -1,0 +1,1728 @@
+Pylint output for controller/mainPageContoller.py:
+************* Module controller.mainPageContoller
+controller/mainPageContoller.py:137:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+controller/mainPageContoller.py:137:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/mainPageContoller.py:9:0: C0411: third party import "from icecream import ic" should be placed before "from model.LocalRepoModel import LocalRepoModel" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+
+
+Pylint output for controller/ProjectMetricsContoller.py:
+************* Module controller.ProjectMetricsContoller
+controller/ProjectMetricsContoller.py:49:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/StartAppContoller.py:
+************* Module controller.StartAppContoller
+controller/StartAppContoller.py:15:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+controller/StartAppContoller.py:17:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/StartAppContoller.py:39:8: W0612: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.85/10 (previous run: 8.85/10, +0.00)
+
+
+
+Pylint output for model/chartOrganizer.py:
+************* Module model.chartOrganizer
+model/chartOrganizer.py:54:8: W0621: Redefining name 'authors' from outer scope (line 26) (redefined-outer-name)
+model/chartOrganizer.py:53:8: W0612: Unused variable 'index' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 9.50/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/DAORepo.py:
+************* Module DAORepo
+model/DataAccessLayer/DAORepo.py:80:0: C0301: Line too long (106/100) (line-too-long)
+model/DataAccessLayer/DAORepo.py:16:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:18:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:28:11: R1714: Consider merging these comparisons with 'in' by using 'repoName in ('', ' ')'. Use a set instead if elements are hashable. (consider-using-in)
+model/DataAccessLayer/DAORepo.py:32:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:49:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:65:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:66:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:81:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:107:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:3:0: W0611: Unused ic imported from icecream (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.72/10 (previous run: 8.72/10, +0.00)
+
+
+
+Pylint output for model/Domain.py:
+************* Module model.Domain
+model/Domain.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:14:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+model/Domain.py:16:4: R0913: Too many arguments (18/5) (too-many-arguments)
+model/Domain.py:16:4: R0914: Too many local variables (18/15) (too-many-locals)
+model/Domain.py:14:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:49:0: R0902: Too many instance attributes (47/7) (too-many-instance-attributes)
+model/Domain.py:51:4: R0915: Too many statements (51/50) (too-many-statements)
+model/Domain.py:106:4: E0307: __str__ does not return str (invalid-str-returned)
+model/Domain.py:109:8: W0622: Redefining built-in 'dict' (redefined-builtin)
+model/Domain.py:110:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+model/Domain.py:49:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+model/Domain.py:114:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 7.95/10 (previous run: 7.95/10, +0.00)
+
+
+
+Pylint output for model/git_ck.py:
+************* Module model.git_ck
+model/git_ck.py:13:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/git_ck.py:51:8: W0622: Redefining built-in 'dir' (redefined-builtin)
+model/git_ck.py:49:4: W0612: Unused variable 'current_directory' (unused-variable)
+model/git_ck.py:75:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/git_ck.py:66:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/LocalDAO.py:
+************* Module LocalDAO
+model/DataAccessLayer/LocalDAO.py:13:0: W0404: Reimport 'subprocess' (imported line 5) (reimported)
+model/DataAccessLayer/LocalDAO.py:21:8: W0105: String statement has no effect (pointless-string-statement)
+model/DataAccessLayer/LocalDAO.py:25:12: W0612: Unused variable 'root' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:25:18: W0612: Unused variable 'dirs' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:47:24: W0613: Unused argument 'func' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:47:36: W0613: Unused argument 'exc_info' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:55:15: W0718: Catching too general exception Exception (broad-exception-caught)
+model/DataAccessLayer/LocalDAO.py:54:12: W0612: Unused variable 'p' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:63:12: W0612: Unused variable 'file_blob' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:85:27: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+model/DataAccessLayer/LocalDAO.py:120:24: W0622: Redefining built-in 'hash' (redefined-builtin)
+model/DataAccessLayer/LocalDAO.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+model/DataAccessLayer/LocalDAO.py:170:12: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+model/DataAccessLayer/LocalDAO.py:12:0: C0411: third party import "from git.repo.base import Repo" should be placed before "from model.repo_utils import get_commits, repo_to_use" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0411: standard import "import subprocess" should be placed before "from icecream import ic" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0412: Imports from package subprocess are not grouped (ungrouped-imports)
+model/DataAccessLayer/LocalDAO.py:8:0: W0611: Unused ic imported from icecream (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused get_commits imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused repo_to_use imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:12:0: W0611: Unused Repo imported from git.repo.base (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.17/10 (previous run: 8.17/10, +0.00)
+
+
+
+Pylint output for model/process_metrics.py:
+************* Module model.process_metrics
+model/process_metrics.py:26:8: W0612: Unused variable 'commit' (unused-variable)
+model/process_metrics.py:96:16: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for model/repo_utils.py:
+************* Module model.repo_utils
+model/repo_utils.py:15:10: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+model/repo_utils.py:20:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/repo_utils.py:128:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:141:8: W0612: Unused variable 'root' (unused-variable)
+model/repo_utils.py:141:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:15:10: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+
+
+
+Pylint output for model/spMetrics.py:
+************* Module model.spMetrics
+model/spMetrics.py:14:0: R0914: Too many local variables (21/15) (too-many-locals)
+model/spMetrics.py:29:8: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+model/spMetrics.py:86:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model/spMetrics.py:99:7: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+
+------------------------------------------------------------------
+Your code has been rated at 9.42/10 (previous run: 9.42/10, +0.00)
+
+
+
+Pylint output for view/App.py:
+************* Module App
+view/App.py:59:11: C0121: Comparison 'self.stop == True' should be 'self.stop is True' if checking for the singleton value True, or 'self.stop' if testing for truthiness (singleton-comparison)
+view/App.py:112:32: W0613: Unused argument 'event' (unused-argument)
+view/App.py:116:30: W0613: Unused argument 'event' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+
+
+Pylint output for backend/presentation_layer/compute.py:
+************* Module backend.presentation_layer.compute
+backend/presentation_layer/compute.py:5:0: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:7:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:18:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:19:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:16:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:33:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:34:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:31:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+
+
+Pylint output for view/widgets/GraficiSP/GraphFactory.py:
+************* Module GraphFactory
+view/widgets/GraficiSP/GraphFactory.py:15:0: C0301: Line too long (121/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:17:0: C0301: Line too long (101/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:11:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.83/10 (previous run: 9.83/10, +0.00)
+
+
+
+Pylint output for view/widgets/listbox.py:
+************* Module view/widgets/listbox.py
+view/widgets/listbox.py:1:0: F0001: No module named view/widgets/listbox.py (fatal)
+
+
+Pylint output for view/MainPage.py:
+************* Module MainPage
+view/MainPage.py:18:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/MainPage.py:18:0: R0902: Too many instance attributes (16/7) (too-many-instance-attributes)
+view/MainPage.py:66:8: W0621: Redefining name 'font' from outer scope (line 5) (redefined-outer-name)
+view/MainPage.py:74:8: W0105: String statement has no effect (pointless-string-statement)
+view/MainPage.py:111:11: C0121: Comparison 'repolist != None' should be 'repolist is not None' (singleton-comparison)
+view/MainPage.py:121:21: W0613: Unused argument 'event' (unused-argument)
+view/MainPage.py:129:11: C0121: Comparison 'self.loading == False' should be 'self.loading is False' if checking for the singleton value False, or 'not self.loading' if testing for falsiness (singleton-comparison)
+view/MainPage.py:126:35: W0613: Unused argument 'intero' (unused-argument)
+view/MainPage.py:137:12: W0201: Attribute 'loadbar' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for view/widgets/Plot.py:
+************* Module Plot
+view/widgets/Plot.py:6:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+------------------------------------------------------------------
+Your code has been rated at 9.55/10 (previous run: 9.55/10, +0.00)
+
+
+
+Pylint output for view/ProjectMetricsPage.py:
+************* Module ProjectMetricsPage
+view/ProjectMetricsPage.py:341:0: C0301: Line too long (139/100) (line-too-long)
+view/ProjectMetricsPage.py:15:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/ProjectMetricsPage.py:15:0: R0902: Too many instance attributes (34/7) (too-many-instance-attributes)
+view/ProjectMetricsPage.py:18:31: W0613: Unused argument 'debug' (unused-argument)
+view/ProjectMetricsPage.py:61:36: W0212: Access to a protected member _values of a client class (protected-access)
+view/ProjectMetricsPage.py:62:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:98:8: W0622: Redefining built-in 'license' (redefined-builtin)
+view/ProjectMetricsPage.py:86:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:95:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:99:11: C0121: Comparison 'self.repoData.license != None' should be 'self.repoData.license is not None' (singleton-comparison)
+view/ProjectMetricsPage.py:107:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:118:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:192:4: R0914: Too many local variables (20/15) (too-many-locals)
+view/ProjectMetricsPage.py:212:18: W0612: Unused variable 'revToolbar' (unused-variable)
+view/ProjectMetricsPage.py:219:15: W0612: Unused variable 'bugToolbar' (unused-variable)
+view/ProjectMetricsPage.py:226:15: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:278:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:290:13: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:335:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:335:4: R0915: Too many statements (56/50) (too-many-statements)
+view/ProjectMetricsPage.py:534:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:535:8: W0105: String statement has no effect (pointless-string-statement)
+view/ProjectMetricsPage.py:532:42: W0613: Unused argument 'branch' (unused-argument)
+view/ProjectMetricsPage.py:553:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+view/ProjectMetricsPage.py:569:38: W0613: Unused argument 'arriveYears' (unused-argument)
+view/ProjectMetricsPage.py:564:41: W0613: Unused argument 'startingYear' (unused-argument)
+view/ProjectMetricsPage.py:143:8: W0201: Attribute 'messageFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:197:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:284:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.06/10 (previous run: 9.06/10, +0.00)
+
+
+
+Pylint output for view/widgets/SideButton.py:
+************* Module SideButton
+view/widgets/SideButton.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+view/widgets/SideButton.py:3:0: W0622: Redefining built-in 'open' (redefined-builtin)
+view/widgets/SideButton.py:7:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/widgets/SideButton.py:11:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 8.40/10 (previous run: 8.40/10, +0.00)
+
+
+
+Pylint output for backend/start_endpoint.py:
+************* Module backend.start_endpoint
+backend/start_endpoint.py:21:0: C0301: Line too long (133/100) (line-too-long)
+backend/start_endpoint.py:36:0: C0301: Line too long (139/100) (line-too-long)
+backend/start_endpoint.py:38:15: W0718: Catching too general exception Exception (broad-exception-caught)
+backend/start_endpoint.py:51:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 8.92/10 (previous run: 8.92/10, +0.00)
+
+
+
+Pylint output for controller/mainPageContoller.py:
+************* Module controller.mainPageContoller
+controller/mainPageContoller.py:137:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+controller/mainPageContoller.py:137:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/mainPageContoller.py:9:0: C0411: third party import "from icecream import ic" should be placed before "from model.LocalRepoModel import LocalRepoModel" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+
+
+Pylint output for controller/ProjectMetricsContoller.py:
+************* Module controller.ProjectMetricsContoller
+controller/ProjectMetricsContoller.py:49:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/StartAppContoller.py:
+************* Module controller.StartAppContoller
+controller/StartAppContoller.py:15:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+controller/StartAppContoller.py:17:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/StartAppContoller.py:39:8: W0612: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.85/10 (previous run: 8.85/10, +0.00)
+
+
+
+Pylint output for model/chartOrganizer.py:
+************* Module model.chartOrganizer
+model/chartOrganizer.py:54:8: W0621: Redefining name 'authors' from outer scope (line 26) (redefined-outer-name)
+model/chartOrganizer.py:53:8: W0612: Unused variable 'index' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 9.50/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/DAORepo.py:
+************* Module DAORepo
+model/DataAccessLayer/DAORepo.py:80:0: C0301: Line too long (106/100) (line-too-long)
+model/DataAccessLayer/DAORepo.py:4:0: E0401: Unable to import 'model.Domain' (import-error)
+model/DataAccessLayer/DAORepo.py:16:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:18:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:28:11: R1714: Consider merging these comparisons with 'in' by using 'repoName in ('', ' ')'. Use a set instead if elements are hashable. (consider-using-in)
+model/DataAccessLayer/DAORepo.py:32:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:49:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:65:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:66:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:81:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:107:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:3:0: W0611: Unused ic imported from icecream (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.14/10 (previous run: 8.72/10, -0.58)
+
+
+
+Pylint output for model/Domain.py:
+************* Module model.Domain
+model/Domain.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:15:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+model/Domain.py:18:4: R0913: Too many arguments (18/5) (too-many-arguments)
+model/Domain.py:18:4: R0914: Too many local variables (18/15) (too-many-locals)
+model/Domain.py:15:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:59:0: R0902: Too many instance attributes (47/7) (too-many-instance-attributes)
+model/Domain.py:62:4: R0915: Too many statements (51/50) (too-many-statements)
+model/Domain.py:119:4: E0307: __str__ does not return str (invalid-str-returned)
+model/Domain.py:122:8: W0622: Redefining built-in 'dict' (redefined-builtin)
+model/Domain.py:123:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+model/Domain.py:59:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+model/Domain.py:127:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 7.95/10 (previous run: 7.95/10, +0.00)
+
+
+
+Pylint output for model/git_ck.py:
+************* Module model.git_ck
+model/git_ck.py:13:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/git_ck.py:51:8: W0622: Redefining built-in 'dir' (redefined-builtin)
+model/git_ck.py:49:4: W0612: Unused variable 'current_directory' (unused-variable)
+model/git_ck.py:75:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/git_ck.py:66:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/LocalDAO.py:
+************* Module LocalDAO
+model/DataAccessLayer/LocalDAO.py:11:0: E0401: Unable to import 'model.repo_utils' (import-error)
+model/DataAccessLayer/LocalDAO.py:13:0: W0404: Reimport 'subprocess' (imported line 5) (reimported)
+model/DataAccessLayer/LocalDAO.py:21:8: W0105: String statement has no effect (pointless-string-statement)
+model/DataAccessLayer/LocalDAO.py:25:12: W0612: Unused variable 'root' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:25:18: W0612: Unused variable 'dirs' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:47:24: W0613: Unused argument 'func' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:47:36: W0613: Unused argument 'exc_info' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:55:15: W0718: Catching too general exception Exception (broad-exception-caught)
+model/DataAccessLayer/LocalDAO.py:54:12: W0612: Unused variable 'p' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:63:12: W0612: Unused variable 'file_blob' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:85:27: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+model/DataAccessLayer/LocalDAO.py:120:24: W0622: Redefining built-in 'hash' (redefined-builtin)
+model/DataAccessLayer/LocalDAO.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+model/DataAccessLayer/LocalDAO.py:170:12: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+model/DataAccessLayer/LocalDAO.py:12:0: C0411: third party import "from git.repo.base import Repo" should be placed before "from model.repo_utils import get_commits, repo_to_use" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0411: standard import "import subprocess" should be placed before "from icecream import ic" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0412: Imports from package subprocess are not grouped (ungrouped-imports)
+model/DataAccessLayer/LocalDAO.py:8:0: W0611: Unused ic imported from icecream (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused get_commits imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused repo_to_use imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:12:0: W0611: Unused Repo imported from git.repo.base (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 7.71/10 (previous run: 8.17/10, -0.46)
+
+
+
+Pylint output for model/process_metrics.py:
+************* Module model.process_metrics
+model/process_metrics.py:26:8: W0612: Unused variable 'commit' (unused-variable)
+model/process_metrics.py:96:16: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/mainPageContoller.py:
+************* Module controller.mainPageContoller
+controller/mainPageContoller.py:137:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+controller/mainPageContoller.py:137:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/mainPageContoller.py:9:0: C0411: third party import "from icecream import ic" should be placed before "from model.LocalRepoModel import LocalRepoModel" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+
+
+Pylint output for controller/ProjectMetricsContoller.py:
+************* Module controller.ProjectMetricsContoller
+controller/ProjectMetricsContoller.py:49:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/StartAppContoller.py:
+************* Module controller.StartAppContoller
+controller/StartAppContoller.py:15:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+controller/StartAppContoller.py:17:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/StartAppContoller.py:39:8: W0612: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.85/10 (previous run: 8.85/10, +0.00)
+
+
+
+Pylint output for model/chartOrganizer.py:
+************* Module model.chartOrganizer
+model/chartOrganizer.py:54:8: W0621: Redefining name 'authors' from outer scope (line 26) (redefined-outer-name)
+model/chartOrganizer.py:53:8: W0612: Unused variable 'index' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 9.50/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/DAORepo.py:
+************* Module DAORepo
+model/DataAccessLayer/DAORepo.py:80:0: C0301: Line too long (106/100) (line-too-long)
+model/DataAccessLayer/DAORepo.py:16:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:18:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:28:11: R1714: Consider merging these comparisons with 'in' by using 'repoName in ('', ' ')'. Use a set instead if elements are hashable. (consider-using-in)
+model/DataAccessLayer/DAORepo.py:32:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:49:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:65:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:66:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:81:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:107:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:3:0: W0611: Unused ic imported from icecream (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.72/10 (previous run: 8.14/10, +0.58)
+
+
+
+Pylint output for model/Domain.py:
+************* Module model.Domain
+model/Domain.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:15:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+model/Domain.py:18:4: R0913: Too many arguments (18/5) (too-many-arguments)
+model/Domain.py:18:4: R0914: Too many local variables (18/15) (too-many-locals)
+model/Domain.py:15:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:59:0: R0902: Too many instance attributes (47/7) (too-many-instance-attributes)
+model/Domain.py:62:4: R0915: Too many statements (51/50) (too-many-statements)
+model/Domain.py:119:4: E0307: __str__ does not return str (invalid-str-returned)
+model/Domain.py:122:8: W0622: Redefining built-in 'dict' (redefined-builtin)
+model/Domain.py:123:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+model/Domain.py:59:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+model/Domain.py:127:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 7.95/10 (previous run: 7.95/10, +0.00)
+
+
+
+Pylint output for model/git_ck.py:
+************* Module model.git_ck
+model/git_ck.py:13:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/git_ck.py:51:8: W0622: Redefining built-in 'dir' (redefined-builtin)
+model/git_ck.py:49:4: W0612: Unused variable 'current_directory' (unused-variable)
+model/git_ck.py:75:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/git_ck.py:66:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/LocalDAO.py:
+************* Module LocalDAO
+model/DataAccessLayer/LocalDAO.py:13:0: W0404: Reimport 'subprocess' (imported line 5) (reimported)
+model/DataAccessLayer/LocalDAO.py:21:8: W0105: String statement has no effect (pointless-string-statement)
+model/DataAccessLayer/LocalDAO.py:25:12: W0612: Unused variable 'root' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:25:18: W0612: Unused variable 'dirs' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:47:24: W0613: Unused argument 'func' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:47:36: W0613: Unused argument 'exc_info' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:55:15: W0718: Catching too general exception Exception (broad-exception-caught)
+model/DataAccessLayer/LocalDAO.py:54:12: W0612: Unused variable 'p' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:63:12: W0612: Unused variable 'file_blob' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:85:27: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+model/DataAccessLayer/LocalDAO.py:120:24: W0622: Redefining built-in 'hash' (redefined-builtin)
+model/DataAccessLayer/LocalDAO.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+model/DataAccessLayer/LocalDAO.py:170:12: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+model/DataAccessLayer/LocalDAO.py:12:0: C0411: third party import "from git.repo.base import Repo" should be placed before "from model.repo_utils import get_commits, repo_to_use" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0411: standard import "import subprocess" should be placed before "from icecream import ic" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0412: Imports from package subprocess are not grouped (ungrouped-imports)
+model/DataAccessLayer/LocalDAO.py:8:0: W0611: Unused ic imported from icecream (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused get_commits imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused repo_to_use imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:12:0: W0611: Unused Repo imported from git.repo.base (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.17/10 (previous run: 7.71/10, +0.46)
+
+
+
+Pylint output for model/process_metrics.py:
+************* Module model.process_metrics
+model/process_metrics.py:26:8: W0612: Unused variable 'commit' (unused-variable)
+model/process_metrics.py:96:16: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for model/repo_utils.py:
+************* Module model.repo_utils
+model/repo_utils.py:15:10: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+model/repo_utils.py:20:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/repo_utils.py:128:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:141:8: W0612: Unused variable 'root' (unused-variable)
+model/repo_utils.py:141:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:15:10: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+
+
+
+Pylint output for controller/mainPageContoller.py:
+************* Module controller.mainPageContoller
+controller/mainPageContoller.py:137:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+controller/mainPageContoller.py:137:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/mainPageContoller.py:9:0: C0411: third party import "from icecream import ic" should be placed before "from model.LocalRepoModel import LocalRepoModel" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+
+
+Pylint output for controller/ProjectMetricsContoller.py:
+************* Module controller.ProjectMetricsContoller
+controller/ProjectMetricsContoller.py:49:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/StartAppContoller.py:
+************* Module controller.StartAppContoller
+controller/StartAppContoller.py:15:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+controller/StartAppContoller.py:17:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/StartAppContoller.py:39:8: W0612: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.85/10 (previous run: 8.85/10, +0.00)
+
+
+
+Pylint output for model/chartOrganizer.py:
+************* Module model.chartOrganizer
+model/chartOrganizer.py:54:8: W0621: Redefining name 'authors' from outer scope (line 26) (redefined-outer-name)
+model/chartOrganizer.py:53:8: W0612: Unused variable 'index' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 9.50/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/DAORepo.py:
+************* Module DAORepo
+model/DataAccessLayer/DAORepo.py:80:0: C0301: Line too long (106/100) (line-too-long)
+model/DataAccessLayer/DAORepo.py:16:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:18:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:28:11: R1714: Consider merging these comparisons with 'in' by using 'repoName in ('', ' ')'. Use a set instead if elements are hashable. (consider-using-in)
+model/DataAccessLayer/DAORepo.py:32:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:49:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:65:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:66:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:81:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:107:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:3:0: W0611: Unused ic imported from icecream (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.72/10 (previous run: 8.72/10, +0.00)
+
+
+
+Pylint output for model/Domain.py:
+************* Module model.Domain
+model/Domain.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:15:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+model/Domain.py:18:4: R0913: Too many arguments (18/5) (too-many-arguments)
+model/Domain.py:18:4: R0914: Too many local variables (18/15) (too-many-locals)
+model/Domain.py:15:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:59:0: R0902: Too many instance attributes (47/7) (too-many-instance-attributes)
+model/Domain.py:62:4: R0915: Too many statements (51/50) (too-many-statements)
+model/Domain.py:119:4: E0307: __str__ does not return str (invalid-str-returned)
+model/Domain.py:122:8: W0622: Redefining built-in 'dict' (redefined-builtin)
+model/Domain.py:123:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+model/Domain.py:59:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+model/Domain.py:127:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 7.95/10 (previous run: 7.95/10, +0.00)
+
+
+
+Pylint output for model/git_ck.py:
+************* Module model.git_ck
+model/git_ck.py:13:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/git_ck.py:51:8: W0622: Redefining built-in 'dir' (redefined-builtin)
+model/git_ck.py:49:4: W0612: Unused variable 'current_directory' (unused-variable)
+model/git_ck.py:75:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/git_ck.py:66:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/LocalDAO.py:
+************* Module LocalDAO
+model/DataAccessLayer/LocalDAO.py:13:0: W0404: Reimport 'subprocess' (imported line 5) (reimported)
+model/DataAccessLayer/LocalDAO.py:21:8: W0105: String statement has no effect (pointless-string-statement)
+model/DataAccessLayer/LocalDAO.py:25:12: W0612: Unused variable 'root' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:25:18: W0612: Unused variable 'dirs' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:47:24: W0613: Unused argument 'func' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:47:36: W0613: Unused argument 'exc_info' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:55:15: W0718: Catching too general exception Exception (broad-exception-caught)
+model/DataAccessLayer/LocalDAO.py:54:12: W0612: Unused variable 'p' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:63:12: W0612: Unused variable 'file_blob' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:85:27: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+model/DataAccessLayer/LocalDAO.py:120:24: W0622: Redefining built-in 'hash' (redefined-builtin)
+model/DataAccessLayer/LocalDAO.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+model/DataAccessLayer/LocalDAO.py:170:12: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+model/DataAccessLayer/LocalDAO.py:12:0: C0411: third party import "from git.repo.base import Repo" should be placed before "from model.repo_utils import get_commits, repo_to_use" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0411: standard import "import subprocess" should be placed before "from icecream import ic" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0412: Imports from package subprocess are not grouped (ungrouped-imports)
+model/DataAccessLayer/LocalDAO.py:8:0: W0611: Unused ic imported from icecream (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused get_commits imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused repo_to_use imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:12:0: W0611: Unused Repo imported from git.repo.base (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.17/10 (previous run: 8.17/10, +0.00)
+
+
+
+Pylint output for model/process_metrics.py:
+************* Module model.process_metrics
+model/process_metrics.py:26:8: W0612: Unused variable 'commit' (unused-variable)
+model/process_metrics.py:96:16: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for model/repo_utils.py:
+************* Module model.repo_utils
+model/repo_utils.py:15:10: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+model/repo_utils.py:20:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/repo_utils.py:128:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:141:8: W0612: Unused variable 'root' (unused-variable)
+model/repo_utils.py:141:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:15:10: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+
+
+
+Pylint output for model/spMetrics.py:
+************* Module model.spMetrics
+model/spMetrics.py:14:0: R0914: Too many local variables (21/15) (too-many-locals)
+model/spMetrics.py:29:8: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+model/spMetrics.py:86:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model/spMetrics.py:99:7: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+
+------------------------------------------------------------------
+Your code has been rated at 9.42/10 (previous run: 9.42/10, +0.00)
+
+
+
+Pylint output for view/App.py:
+************* Module App
+view/App.py:64:11: C0121: Comparison 'self.stop == True' should be 'self.stop is True' if checking for the singleton value True, or 'self.stop' if testing for truthiness (singleton-comparison)
+view/App.py:117:32: W0613: Unused argument 'event' (unused-argument)
+view/App.py:121:30: W0613: Unused argument 'event' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+
+
+Pylint output for backend/presentation_layer/compute.py:
+************* Module backend.presentation_layer.compute
+backend/presentation_layer/compute.py:5:0: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:7:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:18:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:19:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:16:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:33:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:34:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:31:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+
+
+Pylint output for view/widgets/GraficiSP/GraphFactory.py:
+************* Module GraphFactory
+view/widgets/GraficiSP/GraphFactory.py:15:0: C0301: Line too long (121/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:17:0: C0301: Line too long (101/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:11:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.83/10 (previous run: 9.83/10, +0.00)
+
+
+
+Pylint output for view/widgets/listbox.py:
+************* Module view/widgets/listbox.py
+view/widgets/listbox.py:1:0: F0001: No module named view/widgets/listbox.py (fatal)
+
+
+Pylint output for view/MainPage.py:
+************* Module MainPage
+view/MainPage.py:18:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/MainPage.py:18:0: R0902: Too many instance attributes (16/7) (too-many-instance-attributes)
+view/MainPage.py:66:8: W0621: Redefining name 'font' from outer scope (line 5) (redefined-outer-name)
+view/MainPage.py:74:8: W0105: String statement has no effect (pointless-string-statement)
+view/MainPage.py:111:11: C0121: Comparison 'repolist != None' should be 'repolist is not None' (singleton-comparison)
+view/MainPage.py:121:21: W0613: Unused argument 'event' (unused-argument)
+view/MainPage.py:129:11: C0121: Comparison 'self.loading == False' should be 'self.loading is False' if checking for the singleton value False, or 'not self.loading' if testing for falsiness (singleton-comparison)
+view/MainPage.py:126:35: W0613: Unused argument 'intero' (unused-argument)
+view/MainPage.py:137:12: W0201: Attribute 'loadbar' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for view/widgets/Plot.py:
+************* Module Plot
+view/widgets/Plot.py:6:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+------------------------------------------------------------------
+Your code has been rated at 9.55/10 (previous run: 9.55/10, +0.00)
+
+
+
+Pylint output for view/ProjectMetricsPage.py:
+************* Module ProjectMetricsPage
+view/ProjectMetricsPage.py:341:0: C0301: Line too long (139/100) (line-too-long)
+view/ProjectMetricsPage.py:15:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/ProjectMetricsPage.py:15:0: R0902: Too many instance attributes (34/7) (too-many-instance-attributes)
+view/ProjectMetricsPage.py:18:31: W0613: Unused argument 'debug' (unused-argument)
+view/ProjectMetricsPage.py:61:36: W0212: Access to a protected member _values of a client class (protected-access)
+view/ProjectMetricsPage.py:62:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:98:8: W0622: Redefining built-in 'license' (redefined-builtin)
+view/ProjectMetricsPage.py:86:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:95:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:99:11: C0121: Comparison 'self.repoData.license != None' should be 'self.repoData.license is not None' (singleton-comparison)
+view/ProjectMetricsPage.py:107:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:118:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:192:4: R0914: Too many local variables (20/15) (too-many-locals)
+view/ProjectMetricsPage.py:212:18: W0612: Unused variable 'revToolbar' (unused-variable)
+view/ProjectMetricsPage.py:219:15: W0612: Unused variable 'bugToolbar' (unused-variable)
+view/ProjectMetricsPage.py:226:15: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:278:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:290:13: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:335:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:335:4: R0915: Too many statements (56/50) (too-many-statements)
+view/ProjectMetricsPage.py:534:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:535:8: W0105: String statement has no effect (pointless-string-statement)
+view/ProjectMetricsPage.py:532:42: W0613: Unused argument 'branch' (unused-argument)
+view/ProjectMetricsPage.py:553:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+view/ProjectMetricsPage.py:569:38: W0613: Unused argument 'arriveYears' (unused-argument)
+view/ProjectMetricsPage.py:564:41: W0613: Unused argument 'startingYear' (unused-argument)
+view/ProjectMetricsPage.py:143:8: W0201: Attribute 'messageFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:197:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:284:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.06/10 (previous run: 9.06/10, +0.00)
+
+
+
+Pylint output for view/widgets/SideButton.py:
+************* Module SideButton
+view/widgets/SideButton.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+view/widgets/SideButton.py:3:0: W0622: Redefining built-in 'open' (redefined-builtin)
+view/widgets/SideButton.py:7:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/widgets/SideButton.py:11:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 8.40/10 (previous run: 8.40/10, +0.00)
+
+
+
+Pylint output for backend/start_endpoint.py:
+************* Module backend.start_endpoint
+backend/start_endpoint.py:21:0: C0301: Line too long (133/100) (line-too-long)
+backend/start_endpoint.py:36:0: C0301: Line too long (139/100) (line-too-long)
+backend/start_endpoint.py:38:15: W0718: Catching too general exception Exception (broad-exception-caught)
+backend/start_endpoint.py:51:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 8.92/10 (previous run: 8.92/10, +0.00)
+
+
+
+Pylint output for controller/mainPageContoller.py:
+************* Module controller.mainPageContoller
+controller/mainPageContoller.py:137:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+controller/mainPageContoller.py:137:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/mainPageContoller.py:9:0: C0411: third party import "from icecream import ic" should be placed before "from model.LocalRepoModel import LocalRepoModel" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+
+
+Pylint output for controller/ProjectMetricsContoller.py:
+************* Module controller.ProjectMetricsContoller
+controller/ProjectMetricsContoller.py:49:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/StartAppContoller.py:
+************* Module controller.StartAppContoller
+controller/StartAppContoller.py:15:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+controller/StartAppContoller.py:17:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/StartAppContoller.py:39:8: W0612: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.85/10 (previous run: 8.85/10, +0.00)
+
+
+
+Pylint output for model/chartOrganizer.py:
+************* Module model.chartOrganizer
+model/chartOrganizer.py:54:8: W0621: Redefining name 'authors' from outer scope (line 26) (redefined-outer-name)
+model/chartOrganizer.py:53:8: W0612: Unused variable 'index' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 9.50/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/DAORepo.py:
+************* Module DAORepo
+model/DataAccessLayer/DAORepo.py:80:0: C0301: Line too long (106/100) (line-too-long)
+model/DataAccessLayer/DAORepo.py:16:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:18:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:28:11: R1714: Consider merging these comparisons with 'in' by using 'repoName in ('', ' ')'. Use a set instead if elements are hashable. (consider-using-in)
+model/DataAccessLayer/DAORepo.py:32:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:49:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:65:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:66:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:81:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:107:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:3:0: W0611: Unused ic imported from icecream (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.72/10 (previous run: 8.72/10, +0.00)
+
+
+
+Pylint output for model/Domain.py:
+************* Module model.Domain
+model/Domain.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:15:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+model/Domain.py:18:4: R0913: Too many arguments (18/5) (too-many-arguments)
+model/Domain.py:18:4: R0914: Too many local variables (18/15) (too-many-locals)
+model/Domain.py:15:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:59:0: R0902: Too many instance attributes (47/7) (too-many-instance-attributes)
+model/Domain.py:62:4: R0915: Too many statements (51/50) (too-many-statements)
+model/Domain.py:119:4: E0307: __str__ does not return str (invalid-str-returned)
+model/Domain.py:122:8: W0622: Redefining built-in 'dict' (redefined-builtin)
+model/Domain.py:123:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+model/Domain.py:59:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+model/Domain.py:127:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 7.95/10 (previous run: 7.95/10, +0.00)
+
+
+
+Pylint output for model/git_ck.py:
+************* Module model.git_ck
+model/git_ck.py:13:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/git_ck.py:51:8: W0622: Redefining built-in 'dir' (redefined-builtin)
+model/git_ck.py:49:4: W0612: Unused variable 'current_directory' (unused-variable)
+model/git_ck.py:75:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/git_ck.py:66:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/LocalDAO.py:
+************* Module LocalDAO
+model/DataAccessLayer/LocalDAO.py:13:0: W0404: Reimport 'subprocess' (imported line 5) (reimported)
+model/DataAccessLayer/LocalDAO.py:21:8: W0105: String statement has no effect (pointless-string-statement)
+model/DataAccessLayer/LocalDAO.py:25:12: W0612: Unused variable 'root' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:25:18: W0612: Unused variable 'dirs' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:47:24: W0613: Unused argument 'func' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:47:36: W0613: Unused argument 'exc_info' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:55:15: W0718: Catching too general exception Exception (broad-exception-caught)
+model/DataAccessLayer/LocalDAO.py:54:12: W0612: Unused variable 'p' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:63:12: W0612: Unused variable 'file_blob' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:85:27: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+model/DataAccessLayer/LocalDAO.py:120:24: W0622: Redefining built-in 'hash' (redefined-builtin)
+model/DataAccessLayer/LocalDAO.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+model/DataAccessLayer/LocalDAO.py:170:12: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+model/DataAccessLayer/LocalDAO.py:12:0: C0411: third party import "from git.repo.base import Repo" should be placed before "from model.repo_utils import get_commits, repo_to_use" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0411: standard import "import subprocess" should be placed before "from icecream import ic" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0412: Imports from package subprocess are not grouped (ungrouped-imports)
+model/DataAccessLayer/LocalDAO.py:8:0: W0611: Unused ic imported from icecream (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused get_commits imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused repo_to_use imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:12:0: W0611: Unused Repo imported from git.repo.base (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.17/10 (previous run: 8.17/10, +0.00)
+
+
+
+Pylint output for model/process_metrics.py:
+************* Module model.process_metrics
+model/process_metrics.py:26:8: W0612: Unused variable 'commit' (unused-variable)
+model/process_metrics.py:96:16: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for model/repo_utils.py:
+************* Module model.repo_utils
+model/repo_utils.py:15:10: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+model/repo_utils.py:20:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/repo_utils.py:128:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:141:8: W0612: Unused variable 'root' (unused-variable)
+model/repo_utils.py:141:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:15:10: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+
+
+
+Pylint output for model/spMetrics.py:
+************* Module model.spMetrics
+model/spMetrics.py:14:0: R0914: Too many local variables (21/15) (too-many-locals)
+model/spMetrics.py:29:8: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+model/spMetrics.py:86:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model/spMetrics.py:99:7: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+
+------------------------------------------------------------------
+Your code has been rated at 9.42/10 (previous run: 9.42/10, +0.00)
+
+
+
+Pylint output for view/App.py:
+************* Module App
+view/App.py:64:11: C0121: Comparison 'self.stop == True' should be 'self.stop is True' if checking for the singleton value True, or 'self.stop' if testing for truthiness (singleton-comparison)
+view/App.py:117:32: W0613: Unused argument 'event' (unused-argument)
+view/App.py:121:30: W0613: Unused argument 'event' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+
+
+Pylint output for backend/presentation_layer/compute.py:
+************* Module backend.presentation_layer.compute
+backend/presentation_layer/compute.py:5:0: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:7:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:18:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:19:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:16:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:33:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:34:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:31:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+
+
+Pylint output for view/widgets/GraficiSP/GraphFactory.py:
+************* Module GraphFactory
+view/widgets/GraficiSP/GraphFactory.py:15:0: C0301: Line too long (121/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:17:0: C0301: Line too long (101/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:11:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.83/10 (previous run: 9.83/10, +0.00)
+
+
+
+Pylint output for view/widgets/ListBox.py:
+************* Module ListBox
+view/widgets/ListBox.py:4:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/widgets/ListBox.py:24:4: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+-----------------------------------
+Your code has been rated at 9.47/10
+
+
+
+Pylint output for view/MainPage.py:
+************* Module MainPage
+view/MainPage.py:18:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/MainPage.py:18:0: R0902: Too many instance attributes (16/7) (too-many-instance-attributes)
+view/MainPage.py:66:8: W0621: Redefining name 'font' from outer scope (line 5) (redefined-outer-name)
+view/MainPage.py:74:8: W0105: String statement has no effect (pointless-string-statement)
+view/MainPage.py:111:11: C0121: Comparison 'repolist != None' should be 'repolist is not None' (singleton-comparison)
+view/MainPage.py:121:21: W0613: Unused argument 'event' (unused-argument)
+view/MainPage.py:129:11: C0121: Comparison 'self.loading == False' should be 'self.loading is False' if checking for the singleton value False, or 'not self.loading' if testing for falsiness (singleton-comparison)
+view/MainPage.py:126:35: W0613: Unused argument 'intero' (unused-argument)
+view/MainPage.py:137:12: W0201: Attribute 'loadbar' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for view/widgets/Plot.py:
+************* Module Plot
+view/widgets/Plot.py:6:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+------------------------------------------------------------------
+Your code has been rated at 9.55/10 (previous run: 9.55/10, +0.00)
+
+
+
+Pylint output for view/ProjectMetricsPage.py:
+************* Module ProjectMetricsPage
+view/ProjectMetricsPage.py:341:0: C0301: Line too long (139/100) (line-too-long)
+view/ProjectMetricsPage.py:15:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/ProjectMetricsPage.py:15:0: R0902: Too many instance attributes (34/7) (too-many-instance-attributes)
+view/ProjectMetricsPage.py:18:31: W0613: Unused argument 'debug' (unused-argument)
+view/ProjectMetricsPage.py:61:36: W0212: Access to a protected member _values of a client class (protected-access)
+view/ProjectMetricsPage.py:62:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:98:8: W0622: Redefining built-in 'license' (redefined-builtin)
+view/ProjectMetricsPage.py:86:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:95:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:99:11: C0121: Comparison 'self.repoData.license != None' should be 'self.repoData.license is not None' (singleton-comparison)
+view/ProjectMetricsPage.py:107:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:118:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:192:4: R0914: Too many local variables (20/15) (too-many-locals)
+view/ProjectMetricsPage.py:212:18: W0612: Unused variable 'revToolbar' (unused-variable)
+view/ProjectMetricsPage.py:219:15: W0612: Unused variable 'bugToolbar' (unused-variable)
+view/ProjectMetricsPage.py:226:15: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:278:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:290:13: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:335:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:335:4: R0915: Too many statements (56/50) (too-many-statements)
+view/ProjectMetricsPage.py:534:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:535:8: W0105: String statement has no effect (pointless-string-statement)
+view/ProjectMetricsPage.py:532:42: W0613: Unused argument 'branch' (unused-argument)
+view/ProjectMetricsPage.py:553:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+view/ProjectMetricsPage.py:569:38: W0613: Unused argument 'arriveYears' (unused-argument)
+view/ProjectMetricsPage.py:564:41: W0613: Unused argument 'startingYear' (unused-argument)
+view/ProjectMetricsPage.py:143:8: W0201: Attribute 'messageFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:197:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:284:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.06/10 (previous run: 9.06/10, +0.00)
+
+
+
+Pylint output for view/widgets/SideButton.py:
+************* Module SideButton
+view/widgets/SideButton.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+view/widgets/SideButton.py:3:0: W0622: Redefining built-in 'open' (redefined-builtin)
+view/widgets/SideButton.py:7:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/widgets/SideButton.py:11:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 8.40/10 (previous run: 8.40/10, +0.00)
+
+
+
+Pylint output for backend/start_endpoint.py:
+************* Module backend.start_endpoint
+backend/start_endpoint.py:21:0: C0301: Line too long (133/100) (line-too-long)
+backend/start_endpoint.py:36:0: C0301: Line too long (139/100) (line-too-long)
+backend/start_endpoint.py:38:15: W0718: Catching too general exception Exception (broad-exception-caught)
+backend/start_endpoint.py:51:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 8.92/10 (previous run: 8.92/10, +0.00)
+
+
+
+Pylint output for controller/mainPageContoller.py:
+************* Module controller.mainPageContoller
+controller/mainPageContoller.py:137:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+controller/mainPageContoller.py:137:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/mainPageContoller.py:9:0: C0411: third party import "from icecream import ic" should be placed before "from model.LocalRepoModel import LocalRepoModel" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+
+
+Pylint output for controller/ProjectMetricsContoller.py:
+************* Module controller.ProjectMetricsContoller
+controller/ProjectMetricsContoller.py:49:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/StartAppContoller.py:
+************* Module controller.StartAppContoller
+controller/StartAppContoller.py:15:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+controller/StartAppContoller.py:17:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/StartAppContoller.py:39:8: W0612: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.85/10 (previous run: 8.85/10, +0.00)
+
+
+
+Pylint output for model/chartOrganizer.py:
+************* Module model.chartOrganizer
+model/chartOrganizer.py:54:8: W0621: Redefining name 'authors' from outer scope (line 26) (redefined-outer-name)
+model/chartOrganizer.py:53:8: W0612: Unused variable 'index' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 9.50/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/DAORepo.py:
+************* Module DAORepo
+model/DataAccessLayer/DAORepo.py:80:0: C0301: Line too long (106/100) (line-too-long)
+model/DataAccessLayer/DAORepo.py:16:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:18:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:28:11: R1714: Consider merging these comparisons with 'in' by using 'repoName in ('', ' ')'. Use a set instead if elements are hashable. (consider-using-in)
+model/DataAccessLayer/DAORepo.py:32:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:49:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:65:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:66:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:81:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:107:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:3:0: W0611: Unused ic imported from icecream (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.72/10 (previous run: 8.72/10, +0.00)
+
+
+
+Pylint output for model/Domain.py:
+************* Module model.Domain
+model/Domain.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:15:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+model/Domain.py:18:4: R0913: Too many arguments (18/5) (too-many-arguments)
+model/Domain.py:18:4: R0914: Too many local variables (18/15) (too-many-locals)
+model/Domain.py:15:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:59:0: R0902: Too many instance attributes (47/7) (too-many-instance-attributes)
+model/Domain.py:62:4: R0915: Too many statements (51/50) (too-many-statements)
+model/Domain.py:119:4: E0307: __str__ does not return str (invalid-str-returned)
+model/Domain.py:122:8: W0622: Redefining built-in 'dict' (redefined-builtin)
+model/Domain.py:123:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+model/Domain.py:59:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+model/Domain.py:127:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 7.95/10 (previous run: 7.95/10, +0.00)
+
+
+
+Pylint output for model/git_ck.py:
+************* Module model.git_ck
+model/git_ck.py:13:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/git_ck.py:51:8: W0622: Redefining built-in 'dir' (redefined-builtin)
+model/git_ck.py:49:4: W0612: Unused variable 'current_directory' (unused-variable)
+model/git_ck.py:75:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/git_ck.py:66:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/LocalDAO.py:
+************* Module LocalDAO
+model/DataAccessLayer/LocalDAO.py:13:0: W0404: Reimport 'subprocess' (imported line 5) (reimported)
+model/DataAccessLayer/LocalDAO.py:21:8: W0105: String statement has no effect (pointless-string-statement)
+model/DataAccessLayer/LocalDAO.py:25:12: W0612: Unused variable 'root' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:25:18: W0612: Unused variable 'dirs' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:47:24: W0613: Unused argument 'func' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:47:36: W0613: Unused argument 'exc_info' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:55:15: W0718: Catching too general exception Exception (broad-exception-caught)
+model/DataAccessLayer/LocalDAO.py:54:12: W0612: Unused variable 'p' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:63:12: W0612: Unused variable 'file_blob' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:85:27: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+model/DataAccessLayer/LocalDAO.py:120:24: W0622: Redefining built-in 'hash' (redefined-builtin)
+model/DataAccessLayer/LocalDAO.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+model/DataAccessLayer/LocalDAO.py:170:12: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+model/DataAccessLayer/LocalDAO.py:12:0: C0411: third party import "from git.repo.base import Repo" should be placed before "from model.repo_utils import get_commits, repo_to_use" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0411: standard import "import subprocess" should be placed before "from icecream import ic" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0412: Imports from package subprocess are not grouped (ungrouped-imports)
+model/DataAccessLayer/LocalDAO.py:8:0: W0611: Unused ic imported from icecream (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused get_commits imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused repo_to_use imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:12:0: W0611: Unused Repo imported from git.repo.base (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.17/10 (previous run: 8.17/10, +0.00)
+
+
+
+Pylint output for model/process_metrics.py:
+************* Module model.process_metrics
+model/process_metrics.py:26:8: W0612: Unused variable 'commit' (unused-variable)
+model/process_metrics.py:96:16: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for model/repo_utils.py:
+************* Module model.repo_utils
+model/repo_utils.py:15:10: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+model/repo_utils.py:20:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/repo_utils.py:128:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:141:8: W0612: Unused variable 'root' (unused-variable)
+model/repo_utils.py:141:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:15:10: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+
+
+
+Pylint output for model/spMetrics.py:
+************* Module model.spMetrics
+model/spMetrics.py:14:0: R0914: Too many local variables (21/15) (too-many-locals)
+model/spMetrics.py:29:8: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+model/spMetrics.py:86:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model/spMetrics.py:99:7: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+
+------------------------------------------------------------------
+Your code has been rated at 9.42/10 (previous run: 9.42/10, +0.00)
+
+
+
+Pylint output for view/App.py:
+************* Module App
+view/App.py:64:11: C0121: Comparison 'self.stop == True' should be 'self.stop is True' if checking for the singleton value True, or 'self.stop' if testing for truthiness (singleton-comparison)
+view/App.py:117:32: W0613: Unused argument 'event' (unused-argument)
+view/App.py:121:30: W0613: Unused argument 'event' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+
+
+Pylint output for backend/presentation_layer/compute.py:
+************* Module backend.presentation_layer.compute
+backend/presentation_layer/compute.py:5:0: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:7:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:18:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:19:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:16:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:33:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:34:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:31:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+
+
+Pylint output for view/widgets/GraficiSP/GraphFactory.py:
+************* Module GraphFactory
+view/widgets/GraficiSP/GraphFactory.py:15:0: C0301: Line too long (121/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:17:0: C0301: Line too long (101/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:11:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.83/10 (previous run: 9.83/10, +0.00)
+
+
+
+Pylint output for view/widgets/ListBox.py:
+************* Module ListBox
+view/widgets/ListBox.py:4:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/widgets/ListBox.py:24:4: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+------------------------------------------------------------------
+Your code has been rated at 9.47/10 (previous run: 9.47/10, +0.00)
+
+
+
+Pylint output for view/MainPage.py:
+************* Module MainPage
+view/MainPage.py:18:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/MainPage.py:18:0: R0902: Too many instance attributes (16/7) (too-many-instance-attributes)
+view/MainPage.py:66:8: W0621: Redefining name 'font' from outer scope (line 5) (redefined-outer-name)
+view/MainPage.py:74:8: W0105: String statement has no effect (pointless-string-statement)
+view/MainPage.py:111:11: C0121: Comparison 'repolist != None' should be 'repolist is not None' (singleton-comparison)
+view/MainPage.py:121:21: W0613: Unused argument 'event' (unused-argument)
+view/MainPage.py:129:11: C0121: Comparison 'self.loading == False' should be 'self.loading is False' if checking for the singleton value False, or 'not self.loading' if testing for falsiness (singleton-comparison)
+view/MainPage.py:126:35: W0613: Unused argument 'intero' (unused-argument)
+view/MainPage.py:137:12: W0201: Attribute 'loadbar' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for view/widgets/Plot.py:
+************* Module Plot
+view/widgets/Plot.py:6:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+------------------------------------------------------------------
+Your code has been rated at 9.55/10 (previous run: 9.55/10, +0.00)
+
+
+
+Pylint output for view/ProjectMetricsPage.py:
+************* Module ProjectMetricsPage
+view/ProjectMetricsPage.py:341:0: C0301: Line too long (139/100) (line-too-long)
+view/ProjectMetricsPage.py:15:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/ProjectMetricsPage.py:15:0: R0902: Too many instance attributes (34/7) (too-many-instance-attributes)
+view/ProjectMetricsPage.py:18:31: W0613: Unused argument 'debug' (unused-argument)
+view/ProjectMetricsPage.py:61:36: W0212: Access to a protected member _values of a client class (protected-access)
+view/ProjectMetricsPage.py:62:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:98:8: W0622: Redefining built-in 'license' (redefined-builtin)
+view/ProjectMetricsPage.py:86:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:95:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:99:11: C0121: Comparison 'self.repoData.license != None' should be 'self.repoData.license is not None' (singleton-comparison)
+view/ProjectMetricsPage.py:107:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:118:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:192:4: R0914: Too many local variables (20/15) (too-many-locals)
+view/ProjectMetricsPage.py:212:18: W0612: Unused variable 'revToolbar' (unused-variable)
+view/ProjectMetricsPage.py:219:15: W0612: Unused variable 'bugToolbar' (unused-variable)
+view/ProjectMetricsPage.py:226:15: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:278:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:290:13: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:335:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:335:4: R0915: Too many statements (56/50) (too-many-statements)
+view/ProjectMetricsPage.py:534:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:535:8: W0105: String statement has no effect (pointless-string-statement)
+view/ProjectMetricsPage.py:532:42: W0613: Unused argument 'branch' (unused-argument)
+view/ProjectMetricsPage.py:553:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+view/ProjectMetricsPage.py:569:38: W0613: Unused argument 'arriveYears' (unused-argument)
+view/ProjectMetricsPage.py:564:41: W0613: Unused argument 'startingYear' (unused-argument)
+view/ProjectMetricsPage.py:143:8: W0201: Attribute 'messageFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:197:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:284:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.06/10 (previous run: 9.06/10, +0.00)
+
+
+
+Pylint output for view/widgets/SideButton.py:
+************* Module SideButton
+view/widgets/SideButton.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+view/widgets/SideButton.py:3:0: W0622: Redefining built-in 'open' (redefined-builtin)
+view/widgets/SideButton.py:7:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/widgets/SideButton.py:11:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 8.40/10 (previous run: 8.40/10, +0.00)
+
+
+
+Pylint output for backend/start_endpoint.py:
+************* Module backend.start_endpoint
+backend/start_endpoint.py:21:0: C0301: Line too long (133/100) (line-too-long)
+backend/start_endpoint.py:36:0: C0301: Line too long (139/100) (line-too-long)
+backend/start_endpoint.py:38:15: W0718: Catching too general exception Exception (broad-exception-caught)
+backend/start_endpoint.py:51:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 8.92/10 (previous run: 8.92/10, +0.00)
+
+
+
+Pylint output for controller/mainPageContoller.py:
+************* Module controller.mainPageContoller
+controller/mainPageContoller.py:137:8: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+controller/mainPageContoller.py:137:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/mainPageContoller.py:9:0: C0411: third party import "from icecream import ic" should be placed before "from model.LocalRepoModel import LocalRepoModel" (wrong-import-order)
+
+------------------------------------------------------------------
+Your code has been rated at 9.64/10 (previous run: 9.64/10, +0.00)
+
+
+
+Pylint output for controller/ProjectMetricsContoller.py:
+************* Module controller.ProjectMetricsContoller
+controller/ProjectMetricsContoller.py:49:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for controller/StartAppContoller.py:
+************* Module controller.StartAppContoller
+controller/StartAppContoller.py:15:17: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+controller/StartAppContoller.py:17:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+controller/StartAppContoller.py:39:8: W0612: Unused variable 'e' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 8.85/10 (previous run: 8.85/10, +0.00)
+
+
+
+Pylint output for model/chartOrganizer.py:
+************* Module model.chartOrganizer
+model/chartOrganizer.py:54:8: W0621: Redefining name 'authors' from outer scope (line 26) (redefined-outer-name)
+model/chartOrganizer.py:53:8: W0612: Unused variable 'index' (unused-variable)
+
+------------------------------------------------------------------
+Your code has been rated at 9.50/10 (previous run: 9.50/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/DAORepo.py:
+************* Module DAORepo
+model/DataAccessLayer/DAORepo.py:80:0: C0301: Line too long (106/100) (line-too-long)
+model/DataAccessLayer/DAORepo.py:16:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:18:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:28:11: R1714: Consider merging these comparisons with 'in' by using 'repoName in ('', ' ')'. Use a set instead if elements are hashable. (consider-using-in)
+model/DataAccessLayer/DAORepo.py:32:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:49:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:65:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:66:8: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/DataAccessLayer/DAORepo.py:81:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:107:19: W3101: Missing timeout argument for method 'requests.get' can cause your program to hang indefinitely (missing-timeout)
+model/DataAccessLayer/DAORepo.py:3:0: W0611: Unused ic imported from icecream (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.72/10 (previous run: 8.72/10, +0.00)
+
+
+
+Pylint output for model/Domain.py:
+************* Module model.Domain
+model/Domain.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:15:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+model/Domain.py:18:4: R0913: Too many arguments (18/5) (too-many-arguments)
+model/Domain.py:18:4: R0914: Too many local variables (18/15) (too-many-locals)
+model/Domain.py:15:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+model/Domain.py:59:0: R0902: Too many instance attributes (47/7) (too-many-instance-attributes)
+model/Domain.py:62:4: R0915: Too many statements (51/50) (too-many-statements)
+model/Domain.py:119:4: E0307: __str__ does not return str (invalid-str-returned)
+model/Domain.py:122:8: W0622: Redefining built-in 'dict' (redefined-builtin)
+model/Domain.py:123:8: C0206: Consider iterating with .items() (consider-using-dict-items)
+model/Domain.py:59:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+model/Domain.py:127:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 7.95/10 (previous run: 7.95/10, +0.00)
+
+
+
+Pylint output for model/git_ck.py:
+************* Module model.git_ck
+model/git_ck.py:13:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/git_ck.py:51:8: W0622: Redefining built-in 'dir' (redefined-builtin)
+model/git_ck.py:49:4: W0612: Unused variable 'current_directory' (unused-variable)
+model/git_ck.py:75:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+model/git_ck.py:66:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for model/DataAccessLayer/LocalDAO.py:
+************* Module LocalDAO
+model/DataAccessLayer/LocalDAO.py:13:0: W0404: Reimport 'subprocess' (imported line 5) (reimported)
+model/DataAccessLayer/LocalDAO.py:21:8: W0105: String statement has no effect (pointless-string-statement)
+model/DataAccessLayer/LocalDAO.py:25:12: W0612: Unused variable 'root' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:25:18: W0612: Unused variable 'dirs' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:47:24: W0613: Unused argument 'func' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:47:36: W0613: Unused argument 'exc_info' (unused-argument)
+model/DataAccessLayer/LocalDAO.py:55:15: W0718: Catching too general exception Exception (broad-exception-caught)
+model/DataAccessLayer/LocalDAO.py:54:12: W0612: Unused variable 'p' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:63:12: W0612: Unused variable 'file_blob' (unused-variable)
+model/DataAccessLayer/LocalDAO.py:85:27: C0201: Consider iterating the dictionary directly instead of calling .keys() (consider-iterating-dictionary)
+model/DataAccessLayer/LocalDAO.py:120:24: W0622: Redefining built-in 'hash' (redefined-builtin)
+model/DataAccessLayer/LocalDAO.py:142:4: C0116: Missing function or method docstring (missing-function-docstring)
+model/DataAccessLayer/LocalDAO.py:170:12: R1720: Unnecessary "else" after "raise", remove the "else" and de-indent the code inside it (no-else-raise)
+model/DataAccessLayer/LocalDAO.py:12:0: C0411: third party import "from git.repo.base import Repo" should be placed before "from model.repo_utils import get_commits, repo_to_use" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0411: standard import "import subprocess" should be placed before "from icecream import ic" (wrong-import-order)
+model/DataAccessLayer/LocalDAO.py:13:0: C0412: Imports from package subprocess are not grouped (ungrouped-imports)
+model/DataAccessLayer/LocalDAO.py:8:0: W0611: Unused ic imported from icecream (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused get_commits imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:11:0: W0611: Unused repo_to_use imported from model.repo_utils (unused-import)
+model/DataAccessLayer/LocalDAO.py:12:0: W0611: Unused Repo imported from git.repo.base (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 8.17/10 (previous run: 8.17/10, +0.00)
+
+
+
+Pylint output for model/process_metrics.py:
+************* Module model.process_metrics
+model/process_metrics.py:26:8: W0612: Unused variable 'commit' (unused-variable)
+model/process_metrics.py:96:16: R0916: Too many boolean expressions in if statement (7/5) (too-many-boolean-expressions)
+
+------------------------------------------------------------------
+Your code has been rated at 9.80/10 (previous run: 9.80/10, +0.00)
+
+
+
+Pylint output for model/repo_utils.py:
+************* Module model.repo_utils
+model/repo_utils.py:15:10: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+model/repo_utils.py:20:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+model/repo_utils.py:128:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:141:8: W0612: Unused variable 'root' (unused-variable)
+model/repo_utils.py:141:14: W0612: Unused variable 'dirs' (unused-variable)
+model/repo_utils.py:15:10: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+
+
+
+Pylint output for model/spMetrics.py:
+************* Module model.spMetrics
+model/spMetrics.py:14:0: R0914: Too many local variables (21/15) (too-many-locals)
+model/spMetrics.py:29:8: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+model/spMetrics.py:86:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+model/spMetrics.py:99:7: R1701: Consider merging these isinstance calls to isinstance(commits_dict, (int, str)) (consider-merging-isinstance)
+
+------------------------------------------------------------------
+Your code has been rated at 9.42/10 (previous run: 9.42/10, +0.00)
+
+
+
+Pylint output for view/App.py:
+************* Module App
+view/App.py:64:11: C0121: Comparison 'self.stop == True' should be 'self.stop is True' if checking for the singleton value True, or 'self.stop' if testing for truthiness (singleton-comparison)
+view/App.py:117:32: W0613: Unused argument 'event' (unused-argument)
+view/App.py:121:30: W0613: Unused argument 'event' (unused-argument)
+
+------------------------------------------------------------------
+Your code has been rated at 9.62/10 (previous run: 9.62/10, +0.00)
+
+
+
+Pylint output for backend/presentation_layer/compute.py:
+************* Module backend.presentation_layer.compute
+backend/presentation_layer/compute.py:5:0: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:7:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:18:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:19:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:16:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+backend/presentation_layer/compute.py:33:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:34:4: W0105: String statement has no effect (pointless-string-statement)
+backend/presentation_layer/compute.py:31:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 7.14/10, +0.00)
+
+
+
+Pylint output for view/widgets/GraficiSP/GraphFactory.py:
+************* Module GraphFactory
+view/widgets/GraficiSP/GraphFactory.py:15:0: C0301: Line too long (121/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:17:0: C0301: Line too long (101/100) (line-too-long)
+view/widgets/GraficiSP/GraphFactory.py:11:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.83/10 (previous run: 9.83/10, +0.00)
+
+
+
+Pylint output for view/widgets/ListBox.py:
+************* Module ListBox
+view/widgets/ListBox.py:4:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/widgets/ListBox.py:24:4: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+------------------------------------------------------------------
+Your code has been rated at 9.47/10 (previous run: 9.47/10, +0.00)
+
+
+
+Pylint output for view/MainPage.py:
+************* Module MainPage
+view/MainPage.py:18:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/MainPage.py:18:0: R0902: Too many instance attributes (16/7) (too-many-instance-attributes)
+view/MainPage.py:66:8: W0621: Redefining name 'font' from outer scope (line 5) (redefined-outer-name)
+view/MainPage.py:74:8: W0105: String statement has no effect (pointless-string-statement)
+view/MainPage.py:111:11: C0121: Comparison 'repolist != None' should be 'repolist is not None' (singleton-comparison)
+view/MainPage.py:121:21: W0613: Unused argument 'event' (unused-argument)
+view/MainPage.py:129:11: C0121: Comparison 'self.loading == False' should be 'self.loading is False' if checking for the singleton value False, or 'not self.loading' if testing for falsiness (singleton-comparison)
+view/MainPage.py:126:35: W0613: Unused argument 'intero' (unused-argument)
+view/MainPage.py:137:12: W0201: Attribute 'loadbar' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 9.33/10, +0.00)
+
+
+
+Pylint output for view/widgets/Plot.py:
+************* Module Plot
+view/widgets/Plot.py:6:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+
+------------------------------------------------------------------
+Your code has been rated at 9.55/10 (previous run: 9.55/10, +0.00)
+
+
+
+Pylint output for view/ProjectMetricsPage.py:
+************* Module ProjectMetricsPage
+view/ProjectMetricsPage.py:341:0: C0301: Line too long (139/100) (line-too-long)
+view/ProjectMetricsPage.py:15:0: R0901: Too many ancestors (10/7) (too-many-ancestors)
+view/ProjectMetricsPage.py:15:0: R0902: Too many instance attributes (34/7) (too-many-instance-attributes)
+view/ProjectMetricsPage.py:18:31: W0613: Unused argument 'debug' (unused-argument)
+view/ProjectMetricsPage.py:61:36: W0212: Access to a protected member _values of a client class (protected-access)
+view/ProjectMetricsPage.py:62:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:98:8: W0622: Redefining built-in 'license' (redefined-builtin)
+view/ProjectMetricsPage.py:86:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:95:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:99:11: C0121: Comparison 'self.repoData.license != None' should be 'self.repoData.license is not None' (singleton-comparison)
+view/ProjectMetricsPage.py:107:55: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:118:33: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+view/ProjectMetricsPage.py:192:4: R0914: Too many local variables (20/15) (too-many-locals)
+view/ProjectMetricsPage.py:212:18: W0612: Unused variable 'revToolbar' (unused-variable)
+view/ProjectMetricsPage.py:219:15: W0612: Unused variable 'bugToolbar' (unused-variable)
+view/ProjectMetricsPage.py:226:15: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:278:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:290:13: W0612: Unused variable 'churnToolbar' (unused-variable)
+view/ProjectMetricsPage.py:335:4: R0914: Too many local variables (16/15) (too-many-locals)
+view/ProjectMetricsPage.py:335:4: R0915: Too many statements (56/50) (too-many-statements)
+view/ProjectMetricsPage.py:534:8: W1510: 'subprocess.run' used without explicitly defining the value for 'check'. (subprocess-run-check)
+view/ProjectMetricsPage.py:535:8: W0105: String statement has no effect (pointless-string-statement)
+view/ProjectMetricsPage.py:532:42: W0613: Unused argument 'branch' (unused-argument)
+view/ProjectMetricsPage.py:553:30: W0622: Redefining built-in 'hash' (redefined-builtin)
+view/ProjectMetricsPage.py:569:38: W0613: Unused argument 'arriveYears' (unused-argument)
+view/ProjectMetricsPage.py:564:41: W0613: Unused argument 'startingYear' (unused-argument)
+view/ProjectMetricsPage.py:143:8: W0201: Attribute 'messageFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:197:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+view/ProjectMetricsPage.py:284:8: W0201: Attribute 'graphFrame' defined outside __init__ (attribute-defined-outside-init)
+
+------------------------------------------------------------------
+Your code has been rated at 9.06/10 (previous run: 9.06/10, +0.00)
+
+
+
+Pylint output for view/widgets/SideButton.py:
+************* Module SideButton
+view/widgets/SideButton.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+view/widgets/SideButton.py:3:0: W0622: Redefining built-in 'open' (redefined-builtin)
+view/widgets/SideButton.py:7:0: R0901: Too many ancestors (11/7) (too-many-ancestors)
+view/widgets/SideButton.py:11:4: R0913: Too many arguments (6/5) (too-many-arguments)
+
+------------------------------------------------------------------
+Your code has been rated at 8.40/10 (previous run: 8.40/10, +0.00)
+
+
+
+Pylint output for backend/start_endpoint.py:
+************* Module backend.start_endpoint
+backend/start_endpoint.py:21:0: C0301: Line too long (133/100) (line-too-long)
+backend/start_endpoint.py:36:0: C0301: Line too long (139/100) (line-too-long)
+backend/start_endpoint.py:38:15: W0718: Catching too general exception Exception (broad-exception-caught)
+backend/start_endpoint.py:51:11: W0718: Catching too general exception Exception (broad-exception-caught)
+
+------------------------------------------------------------------
+Your code has been rated at 8.92/10 (previous run: 8.92/10, +0.00)
+
+
+

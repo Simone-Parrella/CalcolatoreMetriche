@@ -1,0 +1,12 @@
+{
+    "python.analysis.extraPaths": [
+        "./project/view",
+        "./backend/presentation_layer"
+    ],
+    "python.defaultInterpreterPath": "venv/bin",
+    "java.project.sourcePaths": [
+        "repository",
+        "TestingMetriche/Prova-per-ing-soft",
+        ""
+    ]
+}
